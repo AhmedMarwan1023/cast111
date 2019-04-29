@@ -7,7 +7,7 @@ var adminprefix = '$'
 //bc
 
 client.on("message", message => {
-    if (message.content.startsWith("$obc")) {
+    if (message.content.startsWith("$bc")) {
                  if (!message.member.hasPermission("ADMINISTRATOR"))  return;   // Alpha Codes Ghost
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' ');
